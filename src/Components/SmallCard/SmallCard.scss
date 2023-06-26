@@ -1,0 +1,34 @@
+.smallCard {
+    img {
+        border-radius: 10px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    a {
+        text-decoration: none;
+       
+    }
+
+    .badge {
+        display: inline-block !important;
+       max-width: 100px !important;
+    }
+
+    span {
+        color: rgba(0, 0, 0, 0.5);
+    }
+
+    .underline-hover {
+        color: black !important;
+    }
+
+    .small-card-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+
+    }
+}

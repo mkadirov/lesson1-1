@@ -1,0 +1,25 @@
+.cardBoxMain {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.cardBox1 {
+    width: 80%;
+    margin: auto;
+    
+}
+
+.smallCards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 520px ;
+
+    @media (min-width: 1400px) {
+        height: 620px;
+    }
+}
+

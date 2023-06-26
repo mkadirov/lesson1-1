@@ -1,0 +1,70 @@
+.carousel {
+    margin: auto;
+    position: relative;
+    width: 95vw;
+    height: 85vh;
+    
+
+
+
+   .avatar-rounded {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+       img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        }
+    }
+
+   .controll {
+      //visibility: 50%;
+      position: absolute;
+      top: 50%;
+      right: 10px;
+      transform: translate(-20%, -50%);
+      
+
+      p {
+        margin: 0;
+        color: white;
+      }
+
+      h4 {
+        color: white;
+      }
+
+    
+    }
+
+    .slide1 {
+        opacity: 0.6;
+
+       
+    }
+
+    .activeSlide {
+        opacity: 1 !important;
+        transition: transform 0.5s ease;
+        
+        img {
+            transform: scale(1.15);
+        }
+    }
+
+    .slide-title {
+
+        @media(max-width: 1200px){
+            display: none;
+        }
+
+        
+    }
+
+}
+
+
+
+

@@ -1,0 +1,69 @@
+.cardSlider-box {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    margin: 40px -10px;
+    align-items: center;
+    
+    
+}
+
+
+.cardSlider {
+    width: 80%;
+    overflow: hidden;
+}
+
+
+.card-box {
+   padding: 10px;
+   
+   height: 50vh;
+   
+    img {
+        border-radius: 15px;
+    }
+   
+}
+
+.img-box {
+    position: relative;
+}
+
+.skillbtn {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+
+.card-bottom {
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    span {
+        font-size: 15px;
+    }
+}
+
+
+
+.avatar-rounded {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
