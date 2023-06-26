@@ -12,7 +12,7 @@ import imgCard3 from "../../assets/images/card3.jpg"
 import imgCard4 from "../../assets/images/card4.jpg"
 import imgCard5 from "../../assets/images/card5.jpg"
 
-import avatar1 from "../../assets/images/11.jpg"
+
 import avatar2 from "../../assets/images/07.jpg"
 import avatar3 from "../../assets/images/08.jpg"
 import avatar4 from "../../assets/images/09.jpg"

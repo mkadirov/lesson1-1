@@ -10,7 +10,14 @@ function Header() {
   const [showPages, setShowPages] = useState(true);
   const [showPost, setShowPost] = useState(true);
   const [showLifestyle, setShowLifestyle] = useState(true);
+
+  const [theme, setTheme] = useState(false);
   
+
+  function changeBackgroundColor(v) {
+    document.body.style.backgroundColor = v? 'rgba(37, 35, 35, 0.658)': 'white';
+    setTheme(v)
+  }
 
   return (
     <header>
@@ -87,7 +94,7 @@ function Header() {
             </li>
 
             <li>
-                <button className=" btn btn-warning theme">
+                <button className=" btn btn-warning theme" onClick={() => changeBackgroundColor(!theme)}>
                 <FontAwesomeIcon icon={faMoon} />
                 </button>
             </li>
